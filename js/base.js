@@ -108,8 +108,8 @@ $(document).ready(function(){
         	title: "特别推荐"
         }
     ];
-    //$('#myTemplate').tmpl(website).appendTo('#rows');
     $('#myTemplate').tmpl(divColumns).appendTo('#body');
+
 }); 
 $(document).ready(function(){
 
